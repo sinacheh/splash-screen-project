@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2"
+    android:background="#FFEB3B"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="اطلاعات شما:"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tex1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#03A9F4"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#5E35B1"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tex2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#03A9F4"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#5E35B1"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tex3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#03A9F4"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#5E35B1"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tex4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#03A9F4"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#5E35B1"
+        android:textSize="25dp" />
+
+    <CheckBox
+        android:id="@+id/taiied"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="212dp"
+        android:background="#4CAF50"
+        android:text="تایید اطلاعات"
+        android:textColor="#0D47A1"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="336dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:text="ثبت"
+        android:textSize="25dp"/>
+</LinearLayout>
